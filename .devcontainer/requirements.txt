@@ -1,0 +1,8 @@
+jupyterlab==4.3.5
+# ipywidgets==8.1.5
+# lckr_jupyterlab_variableinspector==3.2.4
+# jupyterlab-code-formatter==3.0.2
+# black==25.1.0
+# isort==6.0.0
+# jupyterlab-lsp==5.1.0
+# python-lsp-server[all]
