@@ -1,0 +1,9 @@
+# Docker
+.env
+
+# Python
+.venv/
+
+# Etc
+tmp/
+.Trash*/
