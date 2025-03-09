@@ -1,0 +1,15 @@
+{
+    // Editor
+    "editor.formatOnPaste": true,
+    // Docker
+    "hadolint.hadolintPath": "/usr/local/bin/hadolint",
+    // Python
+    "python.defaultInterpreterPath": "/app/.venv/bin/python",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    }
+}

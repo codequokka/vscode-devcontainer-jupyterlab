@@ -1,0 +1,18 @@
+services:
+  jupyterlab:
+    build:
+      dockerfile: Dockerfile
+      context: .
+      args:
+        - UID
+        - GID
+    entrypoint: /app/.venv/bin/jupyter lab --config=/app/jupyter_lab_config.py
+    expose:
+      - 8888
+    ports:
+      - 8888:8888
+    tty: true
+    stdin_open: true
+    restart: always
+    volumes:
+      - .:/workspace
